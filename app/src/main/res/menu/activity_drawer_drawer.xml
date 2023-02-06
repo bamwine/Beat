@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/rd" android:icon="@drawable/radio"
+            android:title="Radio" />
+        <item android:id="@+id/sn" android:icon="@drawable/rnet"
+            android:title="Social Network" />
+        <item android:id="@+id/ab" android:icon="@drawable/rabout"
+            android:title="About" />
+        <item android:id="@+id/fr" android:icon="@drawable/rfav"
+            android:title="Favourite" />
+    </group>
+
+
+
+</menu>

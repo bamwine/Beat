@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beat.innocat" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Lauch" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Rd"
+            android:parentActivityName=".Drawer" >
+        </activity>
+        <activity
+            android:name=".Drawer"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Sn"
+            android:parentActivityName=".Drawer" >
+        </activity>
+        <activity
+            android:name=".Ab"
+            android:parentActivityName=".Drawer" >
+        </activity>
+        <activity
+            android:name=".Fr"
+            android:parentActivityName=".Drawer" >
+        </activity>
+        <activity android:name=".Rl"  android:parentActivityName=".Rd" >
+        </activity>
+    </application>
+
+</manifest>
